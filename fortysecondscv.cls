@@ -96,6 +96,8 @@
 %-------------------------------------------------------------------------------
 %                              REQUIRED PACKAGES
 %-------------------------------------------------------------------------------
+%Bilangual
+
 % font configuration
 \RequirePackage[sfdefault]{ClearSans}
 
@@ -190,10 +192,11 @@
 \newcommand*{\cvprofilepic}[1]{\renewcommand{\cvprofilepic}{#1}}
 \newcommand*{\cvname}[1]{\renewcommand{\cvname}{#1}}
 \newcommand*{\cvjobtitle}[1]{\renewcommand{\cvjobtitle}{#1}}
-\newcommand*{\cvbirthday}[1]{\renewcommand{\cvbirthday}{#1}}
+%\newcommand*{\cvbirthday}[1]{\renewcommand{\cvbirthday}{#1}}
 \newcommand*{\cvaddress}[1]{\renewcommand{\cvaddress}{#1}}
 \newcommand*{\cvphone}[1]{\renewcommand{\cvphone}{#1}}
 \newcommand*{\cvmail}[1]{\renewcommand{\cvmail}{\href{mailto:#1}{#1}}}
+\newcommand*{\cvwork}[1]{\renewcommand{\cvwork}{#1}}
 \newcommand*{\cvsite}[1]{\renewcommand{\cvsite}{#1}}
 
 
@@ -243,11 +246,11 @@
 % table with personal information on top sidebar on first page
 \newcommand{\personaltable}{%
 	\begin{personal}[0.6em]
-		\circleicon{\faInfo}     & \cvbirthday \\
+		%\circleicon{\faInfo}     & \cvbirthday \\
 		\circleicon{\faEnvelope} & \cvaddress \\
 		\circleicon{\faPhone}    & \cvphone \\
-				\circleicon{\faAt}       & \cvmail \\
-
+		\circleicon{\faAt}       & \cvmail \\
+		\circleicon{\faBriefcase}     & \cvwork \\
 		\circleicon{\faGlobe}    & \cvsite \\
 	\end{personal}
 }
