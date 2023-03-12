@@ -72,7 +72,7 @@
 % English = 2
 % Catalá = 3
 % German = 4
-\def\lang{2}
+\def\lang{1}
 %fecha de hoy
 \def\fechahoy{\number\day-\number\month-\number\year}
 %Version y fecha
@@ -82,7 +82,11 @@
 \fancyhf{}
 \cfoot{\fechahoy}
 %\rfoot{\thepage}
-\rfoot{v1.0}
+% About versioning 
+% {0.X.X} Mayor changes in Design
+% {X.0.X} Middle changes, content, distribution
+% {X.X.0} Minor changes, typo mistakes
+\rfoot{v1.0.1}
 
 
 %-------------------------------------------------------------------------------
@@ -114,7 +118,7 @@
 %\cvbirthday{\textbf{Date of Birth}: Aug. 7}
 \cvaddress{Girona 17004, Spain}
 \cvwork{Authorized to work in Spain}
-\cvsite{\href{https://www.sebastian-velasquez.dev}{\textbf{web site}}}
+\cvsite{\href{https://www.sebastian-velasquez.dev}{\textbf{website}}}
 
 
 \fi
@@ -138,16 +142,15 @@
 
 % add more profile sections to sidebar on first page
 \addtofrontsidebar{
-	% include gosquare national flags from https://github.com/gosquared/flags;
-	% naming according to ISO 3166-1 alpha-2 country codes
+	
 	\graphicspath{{pics/flags/}}
 
 	\ifnum\lang=1
 	\profilesection{Idiomas}
 	\barskill{}{\textbf{Castellano} (Nativo)}{100}
-	\barskill{}{\textbf{Inglés} (Intermedio)}{60}
+	\barskill{}{\href{https://www.efset.org/cert/BnV9Fa}{\textbf{Inglés} (C1) EF SET}}{70}
 	\barskill{}{\textbf{Alemán} (A2.1)}{15}
-	\barskill{}{\textbf{Catalán} (Básico)}{15}
+	\barskill{}{\textbf{Catalán} (A1)}{11}
 	\profilesection{Intereses}
 		\skill{\faGraduationCap}{IoT}
 		\skill{\faGraduationCap}{Jamstack}
@@ -161,9 +164,9 @@
 	\else
 	\profilesection{Languages}
 	\barskill{}{\textbf{Spanish} (Native)}{100}
-	\barskill{}{\textbf{English} (Intermediate)}{60}
-	\barskill{}{\textbf{German} (A2.1)}{15}
-	\barskill{}{\textbf{Catalan} (Basic)}{15}
+	\barskill{}{\href{https://www.efset.org/cert/BnV9Fa}{\textbf{English} (C1) EF SET}}{70}
+	\barskill{}{\textbf{German} (A2.1) VHS}{15}
+	\barskill{}{\textbf{Catalan} (A1) CPNL}{11}
 	\profilesection{Interests}
 		\skill{\faGraduationCap}{IoT}
 		\skill{\faGraduationCap}{Jamstack}
@@ -298,7 +301,7 @@ de vida y conocer mejor la realidad en la que vivimos.}
 	\end{cvtable}	
 \subsection{Other Courses}
 \begin{cvtable}
-\cvitem{02, 2023}{\href{https://www.ironhack.com}{\color{cvsectioncolor}\small BackEnd Development Bootcamp (Java Springbot)}}{\textbf{IronHack}}
+\cvitem{02, 2023}{\href{https://www.ironhack.com}{\color{cvsectioncolor}\small BackEnd Development Bootcamp (Java Springboot)}}{\textbf{IronHack}}
 
 \cvitem{11, 2022}{\href{https://www.credly.com/badges/a43cfd6e-2c81-4bfe-9762-78a0256abf19/public_url}{\color{cvsectioncolor}\small Soporte de TI de Google}}{\textbf{Coursera}}
 
