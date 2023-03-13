@@ -68,11 +68,18 @@
 %-------------------------------------------------------------------------------
 % Define una variable para indicar el idioma deseado
 %-------------------------------------------------------------------------------
-% Spanish = 1
-% English = 2
+% Spanish = 0
+% English = 1
+% German = 2
 % Catalá = 3
-% German = 4
-\def\lang{1}
+\def\lang{0}
+%-------------------------------------------------------------------------------
+% Define una variable para indicar el idioma deseado
+%-------------------------------------------------------------------------------
+% Not Qualified = 5
+% Art = 6
+\def\type{5}
+
 %fecha de hoy
 \def\fechahoy{\number\day-\number\month-\number\year}
 %Version y fecha
@@ -102,26 +109,30 @@
 
 
 %Spanish
-\ifnum\lang=2
+\ifcase\lang
 \cvjobtitle{Ingeniero Informático}
 %\cvbirthday{\textbf{Fecha de nacimiento}: 07.08}
 \cvaddress{Girona 17004, España}
 \cvwork{Permiso de trabajo en España}
 \cvsite{\href{https://www.sebastian-velasquez.dev}{\textbf{página web}}}
-
-
-
 %English
-\else
+\or
 \cvjobtitle{Computer Engineer}
 % short address/location, use \newline if more than 1 line is required
 %\cvbirthday{\textbf{Date of Birth}: Aug. 7}
 \cvaddress{Girona 17004, Spain}
 \cvwork{Authorized to work in Spain}
 \cvsite{\href{https://www.sebastian-velasquez.dev}{\textbf{website}}}
-
-
+%German
+\or
+\cvjobtitle{Informatiker}
+% short address/location, use \newline if more than 1 line is required
+%\cvbirthday{\textbf{Date of Birth}: 7. August}
+\cvaddress{Girona 17004, Spanien}
+\cvwork{Arbeitserlaubnis in Spanien}
+\cvsite{\href{https://www.sebastian-velasquez.dev}{\textbf{website}}}
 \fi
+%Catala
 
 %-------------------------------------------------------------------------------
 %                              SIDEBAR 1st PAGE
@@ -146,7 +157,7 @@
 	\graphicspath{{pics/flags/}}
 
 	%Spanish
-	\ifnum\lang=2
+	\ifcase\lang
 	\profilesection{Idiomas}
 	\barskill{}{\textbf{Castellano} (Nativo)}{100}
 	\barskill{}{\href{https://www.efset.org/cert/BnV9Fa}{\textbf{Inglés} (C1) EF SET}}{70}
@@ -160,9 +171,8 @@
 	\begin{memberships}
 			\membership{}{Siento mucha curiosidad por la tecnología, siempre estoy experimentando con nuevas herramientas
 			 de código abierto, automatizando tareas cotidianas y desplegando aplicaciones en mi home server.}
-		
-	
-	\else
+	%English	
+	\or
 	\profilesection{Languages}
 	\barskill{}{\textbf{Spanish} (Native)}{100}
 	\barskill{}{\href{https://www.efset.org/cert/BnV9Fa}{\textbf{English} (C1) EF SET}}{70}
@@ -180,9 +190,9 @@
 	\fi
 	\end{memberships}
 
-	\ifnum\lang=2
+	\ifcase\lang
 	\profilesection{Redes}
-	\else
+	\or
 	\profilesection{Profiles}
 	\fi
 	\centering
@@ -203,20 +213,9 @@
 \restoregeometry
 \sidebarwidth=0.35\paperwidth
 
-\ifnum\lang=2
-
-
+\ifcase\lang
 \makefrontsidebar
 
-% \cvsection{IT Working Experience}
-% \begin{cvtable}
-%     \cvitem{Nov, 2020 -- Jan, 2021}{\color{cvsectioncolor}Consultant}{\textbf{ILO Consultant, CL}}{Web scraping to public job portals in Latin America.}
-
-% 	\cvitem{Jul, 2019 -- Jan, 2020}{\color{cvsectioncolor}SAPUI5 -IoT Consultant}{\textbf{SCLOUD, CL}}{IoT prototype with dashboard for vineyard (ESP, SAPUI5), Hybrid mobile application for Telecommunications company, Augmented Reality Prototype for Retail Company}
-
-% 	\cvitem{May, 2016 -- Nov, 2017}{\color{cvsectioncolor}Development Engineer}{\textbf{Karibu, CL}}{Java Microservices, developments in Java with Agile Methodology, Point of Sale desktop application (Java Swing), Android mobile application, flow changes.}
-	
-% 	\cvitem{Jun, 2015 -- Feb, 2016}{\color{cvsectioncolor}QA, Testing}{\textbf{Analyze, Cl}}{Testing for agricultural software, quality assurance for ERP software.}
 \cvsection{Experiencia en IT}
 \begin{cvtable}
     \cvitem{11, 2020 -- 01, 2021}{\color{cvsectioncolor}Consultor}{\textbf{ILO Consultor, CL}}{Captura automatizada de datos (Web scraping) a portales públicos de empleo (Python B4s).}
@@ -270,7 +269,7 @@ Me interesa el desarrollo e investigación de herramientas tecnológicas
 para agilizar y facilitar procesos, responder a preguntas, mejorar la calidad 
 de vida y conocer mejor la realidad en la que vivimos.}
 \profilesection{Conocimientos}
-\else
+\or
 \makefrontsidebar
 
 \cvsection{IT Working Experience}
@@ -381,8 +380,3 @@ de vida y conocer mejor la realidad en la que vivimos.}
 % \cvitem{2006 -- 2008}{\color{cvsectioncolor}\small Music Theory}{\href{https://www.uchile.cl/carreras/4954/teoria-de-la-musica}{\textbf{Universidad de Chile, Chile}}}
 
 % 	\end{cvtable}
-
-
-
-
-
