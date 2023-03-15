@@ -1,0 +1,65 @@
+Sebastián Velásquez
++34 611 445 514
+sebastian.v.a@riseup.net
+Girona 17004, España
+Permiso de trabajo en España
+
+Resumen:
+Soy un ingeniero informático apasionado por la tecnología y la programación, 
+siempre experimentando con nuevas herramientas de código abierto, automatizando tareas cotidianas
+ y desplegando aplicaciones en mi home server. Tengo experiencia en proyectos que incluyen 
+ diferentes lenguajes, tecnologías y arquitecturas, como web, móvil e IoT. Me apasiona la creación 
+ y exploración de herramientas tecnológicas que agilicen y faciliten procesos, mejoren la calidad de vida 
+ y contribuyan a comprender mejor nuestra realidad.
+
+ Objetivos profesionales a largo plazo: Busco seguir desarrollando mi carrera en el ámbito de la tecnología, 
+ explorando nuevas herramientas y tecnologías emergentes y aplicándolas en proyectos innovadores que tengan un 
+ impacto positivo en la sociedad. Aspira a liderar equipos de desarrollo y colaborar con la comunidad 
+ de código abierto en proyectos relevantes.
+
+Experiencia:
+Consultor ILO Consultor, CL (Noviembre 2020 - Enero 2021)
+Desarrollé una solución de web scraping automatizada en Python B4s para capturar datos de portales públicos de empleo, lo que permitió a la empresa obtener información valiosa sobre el mercado laboral en tiempo real.
+
+Consultor SAPUI5 -IoTSCLOUD, CL (Julio 2019 - Enero 2020)
+Diseñé y desarrollé prototipos de IoT y dashboards personalizados para un cliente del sector vinícola utilizando tecnologías como ESP32 y SAPUI5, lo que mejoró la eficiencia de su proceso de producción y le permitió tomar decisiones informadas en tiempo real.
+Creé una aplicación móvil híbrida para una compañía de telecomunicaciones y un prototipo de realidad aumentada para una empresa de alimentación utilizando tecnologías como Android ARcore, lo que les permitió mejorar su experiencia de usuario y destacar frente a la competencia.
+
+Ingeniero de desarrollo Karibu, CL (Mayo 2016 - Noviembre 2017)
+Desarrollé un sistema de punto de venta en desktop utilizando Java Swing y SQL, lo que permitió mejorar la eficiencia de las operaciones y optimizar el seguimiento de las ventas. También implementé el uso de reportes con Jasper, lo que facilitó el monitoreo y análisis de los datos de venta.
+Desarrollé un nuevo mantenedor para una software de administración de turnos (J2EE y JSP), lo que permitió mejorar la eficiencia y la calidad de la gestión de turnos, reduciendo el tiempo dedicado a la gestión manual y minimizando los errores. 
+Desarrollé y mejoré una aplicación Android de puntos de recogida (Java, Android Studio), mejorando la experiencia del usuario, lo que llevó a un aumento del 25% en el número de descargas y una mejora en la valoración de la aplicación en Google Play.
+
+QA, Pruebas Analyze, Cl (Junio 2015 - Febrero 2016)
+Realicé pruebas de software con PyTest y creé manual de usuario para mejorar la experiencia del usuario final en una empresa agrícola.
+Identifiqué y documenté mas de 30 errores críticos en el software, lo que permitió a la empresa corregirlos antes del lanzamiento del producto, ahorrando tiempo y dinero en el proceso de corrección.
+aseguramiento de la calidad para software ERP (Python, Django)
+
+Formación:
+Ingeniería Informática, DuocUC, Chile (2018 - 2020)
+Analista Programador, DuocUC, Chile (2012 - 2015)
+Composición, Universidad de Chile, Chile (2010 - 2011)
+Teoría de la Música, Universidad de Chile, Chile (2006 - 2008)
+
+Otros Cursos:
+BackEnd Development Bootcamp (Java SpringBoot), IronHack (Febrero 2023)
+Soporte de TI de Google, Coursera (Noviembre 2022)
+AWS Machine Learning Foundations, Udacity (Noviembre 2022)
+
+Idiomas:
+Castellano (Nativo) 100
+Inglés (C1) EF SET 70
+Alemán (A2.1) VHS 15
+Catalán (A1) CPNL 11
+
+Intereses:
+IoT, Jamstack, FOSS, Personal
+
+Habilidades:
+Programación: Java, Spring Boot, JUnit, Python3, Bash scripting
+Herramientas: Linux, Git, Docker, GCP
+
+Redes:
+LinkedIn: https://www.linkedin.com/in/sebastian-velasquez-arancibia/
+GitHub: https://github.com/dadapunk
+

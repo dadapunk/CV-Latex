@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1678707459 "/home/dada/Documentos/CV-Latex/main.tex" "main.pdf" "main" 1678707461
+["pdflatex"] 1678881321 "/home/dada/Documentos/CV-Latex/main.tex" "main.pdf" "main" 1678881323
   "/home/dada/.texlive/texmf-var/web2c/pdftex/pdflatex.fmt" 1662977267 2927663 072e4fde404be070b5b8f533e67bc1a7 ""
-  "/home/dada/Documentos/CV-Latex/main.tex" 1678707454 17501 c9f1cfb619dec70582a117913cc97204 ""
+  "/home/dada/Documentos/CV-Latex/main.tex" 1678881321 22725 4cd607f0f4bbc78c03893f4965534008 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/clearsans/clr_zxbkm4.enc" 1650179560 3006 bee092328c2beafee1f162d4e38aad34 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1650179560 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1650179560 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -201,12 +201,12 @@
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1650183167 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1677794624 4278762 af3ac1370db81a450c1118eabf1fe718 ""
-  "fortysecondscv.cls" 1678707348 17856 90edcfe42f8a9b93a2a05cc5f7da5b9e ""
+  "fortysecondscv.cls" 1678879666 18349 63d8c54ce8a1092c276717211a3eaf51 ""
   "github.png" 1678707348 11401 c8a83d0788097e656bc0129ba6021912 ""
   "in.png" 1678707348 5014 895b5acee122f28da5659c25c6c2d8a4 ""
-  "main.aux" 1678707460 1175 766ceee102a10457335bdb17e64810d0 "pdflatex"
-  "main.out" 1678707460 257 9f2a2b8e37ba4943fec860d790b3d5b9 "pdflatex"
-  "main.tex" 1678707454 17501 c9f1cfb619dec70582a117913cc97204 ""
+  "main.aux" 1678881323 1151 35ff4d83284366a5a97c4159b6cebbb2 "pdflatex"
+  "main.out" 1678881323 131 a35cf83bcf4b429d6415dfe66360cae9 "pdflatex"
+  "main.tex" 1678881321 22725 4cd607f0f4bbc78c03893f4965534008 ""
   "pics/profile.png" 1678707348 140635 9b3028a6e4552c83adbecc71e90d59a9 ""
   (generated)
   "main.aux"

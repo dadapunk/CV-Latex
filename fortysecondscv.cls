@@ -170,15 +170,21 @@
 \newcommand*{\cvsection}[1]{\section*{#1}}
 \titleformat{\section}%
 	{\color{sectioncolor}\normalfont\bfseries\LARGE}{}{0pt}{}
+\titlespacing{\subsection}{0pt}{1ex}{1ex}
 
 % grey subsection style for right column
 \titleformat{\subsection}%
 	{\color{subsectioncolor}\normalfont\large}{}{0pt}{}
 
+% set spaces before and after profilesections: <left><before><after>
+% "starred version kills the indentation of the paragraph following the title"	
+\titlespacing{\subsection}{0pt}{0ex}{1ex}
+
+
 % abuse subsubsection as profilesection in left column
 \newcommand*{\profilesection}[1]{\subsubsection*{#1}}
 \titleformat{\subsubsection}
-	{\color{pseccolor}\normalfont\huge}{}{0pt}{\color{pseccolor}\sectionline}
+	{\color{pseccolor}\normalfont\LARGE}{}{0pt}{\color{pseccolor}\sectionline}
 % set spaces before and after profilesections: <left><before><after>
 % "starred version kills the indentation of the paragraph following the title"
 \titlespacing*{\subsubsection}{0pt}{1ex}{1ex}
@@ -280,14 +286,14 @@
 % | [indent] [icon]  description  \hfill  ● ● ● ○ ○ | 
 % -- inspired by arravc.cls by LianTze Lim: https://github.com/liantze/AltaCV
 \newcommand{\pointskill}[4][0em]{%
-	\hspace{#1} \cvicon{#2} ~ #3 \hfill%
-	\foreach \x in {1,...,5}{%
-		\space%
-		{\ifnumgreater{\x}{#4}{\color{skillbg}}{\color{iconcolor}}% from etoolbox
-		% don't use totalheight; see https://tex.stackexchange.com/a/41014
-		\raisebox{0.5\height-0.4ex}{\scriptsize\faCircle}%
-		}
-	}\par%
+  \hspace{#1}\cvicon{#2}#3\hfill%
+  \foreach \x in {1,...,5}{%
+    \space%
+    {\ifnumgreater{\x}{#4}{\color{skillbg}}{\color{iconcolor}}% from etoolbox
+    % don't use totalheight; see https://tex.stackexchange.com/a/41014
+    \raisebox{0.5\height-0.4ex}{\scriptsize\faCircle}%
+    }
+  }\par%
 }
 
 \newcommand{\barskill}[3]{ 
@@ -518,7 +524,16 @@
 	\parbox[t]{0.17\textwidth}{\raggedright #1}
   & \parbox[t]{0.81\textwidth}{#2} \\}
 
-% | <date>         <bold-title>  \hfill  <location>  |
+%Education
+\newcommand{\cvitemmedium}[3]{%
+  \parbox[t]{0.17\textwidth}{\raggedright #1} &%
+  \parbox[t]{0.81\textwidth}{%
+    \textbf{#2} \hfill {\footnotesize#3}\vspace{\parsep}%
+  }\\
+}
+
+
+  % | <date>         <bold-title>  \hfill  <location>  |
 % |                <longer description>              |
 % or, if description is empty:
 % | <date>         <title>       \hfill  <location>  |
@@ -531,7 +546,7 @@
 		\else%
 			\textbf{#2} \hfill {\footnotesize#3} \\ #4\vspace{\parsep}%
 		\fi%
-	}\\
+	}\\[10ex]% modificar espaciado después del comando \cvitem
 }
 
 % EOF - fortysecondscv.cls
