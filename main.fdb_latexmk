@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1678881321 "/home/dada/Documentos/CV-Latex/main.tex" "main.pdf" "main" 1678881323
+["pdflatex"] 1678882828 "/home/dada/Documentos/CV-Latex/main.tex" "main.pdf" "main" 1678882829
   "/home/dada/.texlive/texmf-var/web2c/pdftex/pdflatex.fmt" 1662977267 2927663 072e4fde404be070b5b8f533e67bc1a7 ""
-  "/home/dada/Documentos/CV-Latex/main.tex" 1678881321 22725 4cd607f0f4bbc78c03893f4965534008 ""
+  "/home/dada/Documentos/CV-Latex/main.tex" 1678882827 22692 1ef2040abcefdb23f2b1d531255b362c ""
   "/usr/share/texmf-dist/fonts/enc/dvips/clearsans/clr_zxbkm4.enc" 1650179560 3006 bee092328c2beafee1f162d4e38aad34 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1650179560 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1650179560 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -204,9 +204,9 @@
   "fortysecondscv.cls" 1678879666 18349 63d8c54ce8a1092c276717211a3eaf51 ""
   "github.png" 1678707348 11401 c8a83d0788097e656bc0129ba6021912 ""
   "in.png" 1678707348 5014 895b5acee122f28da5659c25c6c2d8a4 ""
-  "main.aux" 1678881323 1151 35ff4d83284366a5a97c4159b6cebbb2 "pdflatex"
-  "main.out" 1678881323 131 a35cf83bcf4b429d6415dfe66360cae9 "pdflatex"
-  "main.tex" 1678881321 22725 4cd607f0f4bbc78c03893f4965534008 ""
+  "main.aux" 1678882829 1151 35ff4d83284366a5a97c4159b6cebbb2 "pdflatex"
+  "main.out" 1678882829 131 a35cf83bcf4b429d6415dfe66360cae9 "pdflatex"
+  "main.tex" 1678882827 22692 1ef2040abcefdb23f2b1d531255b362c ""
   "pics/profile.png" 1678707348 140635 9b3028a6e4552c83adbecc71e90d59a9 ""
   (generated)
   "main.aux"
