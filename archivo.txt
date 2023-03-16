@@ -23,7 +23,7 @@ Desarrollé una solución de web scraping automatizada en Python B4s para captur
 
 Consultor SAPUI5 -IoTSCLOUD, CL (Julio 2019 - Enero 2020)
 Diseñé y desarrollé prototipos de IoT y dashboards personalizados para un cliente del sector vinícola utilizando tecnologías como ESP32 y SAPUI5, lo que mejoró la eficiencia de su proceso de producción y le permitió tomar decisiones informadas en tiempo real.
-Creé una aplicación móvil híbrida para una compañía de telecomunicaciones y un prototipo de realidad aumentada para una empresa de alimentación utilizando tecnologías como Android ARcore, lo que les permitió mejorar su experiencia de usuario y destacar frente a la competencia.
+Creé una aplicación móvil híbrida para una compañía de telecomunicaciones y un prototipo de realidad aumentada para una empresa de alimentación implementando tecnologías como Android ARcore, lo que les permitió mejorar su experiencia de usuario y destacar frente a la competencia.
 
 Ingeniero de desarrollo Karibu, CL (Mayo 2016 - Noviembre 2017)
 Desarrollé un sistema de punto de venta en desktop utilizando Java Swing y SQL, lo que permitió mejorar la eficiencia de las operaciones y optimizar el seguimiento de las ventas. También implementé el uso de reportes con Jasper, lo que facilitó el monitoreo y análisis de los datos de venta.
@@ -32,7 +32,7 @@ Desarrollé y mejoré una aplicación Android de puntos de recogida (Java, Andro
 
 QA, Pruebas Analyze, Cl (Junio 2015 - Febrero 2016)
 Realicé pruebas de software con PyTest y creé manual de usuario para mejorar la experiencia del usuario final en una empresa agrícola.
-Identifiqué y documenté mas de 30 errores críticos en el software, lo que permitió a la empresa corregirlos antes del lanzamiento del producto, ahorrando tiempo y dinero en el proceso de corrección.
+Identifiqué y documenté más de 30 errores críticos en el software, lo que permitió a la empresa corregirlos antes del lanzamiento del producto, ahorrando tiempo y dinero en el proceso de corrección.
 aseguramiento de la calidad para software ERP (Python, Django)
 
 Formación:

@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1678882828 "/home/dada/Documentos/CV-Latex/main.tex" "main.pdf" "main" 1678882829
+["pdflatex"] 1679003807 "/home/dada/Documentos/CV-Latex/main.tex" "main.pdf" "main" 1679003808
   "/home/dada/.texlive/texmf-var/web2c/pdftex/pdflatex.fmt" 1662977267 2927663 072e4fde404be070b5b8f533e67bc1a7 ""
-  "/home/dada/Documentos/CV-Latex/main.tex" 1678882827 22692 1ef2040abcefdb23f2b1d531255b362c ""
+  "/home/dada/Documentos/CV-Latex/main.tex" 1679003804 17314 cf378359799b2311f41359d3b82a4fbd ""
   "/usr/share/texmf-dist/fonts/enc/dvips/clearsans/clr_zxbkm4.enc" 1650179560 3006 bee092328c2beafee1f162d4e38aad34 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1650179560 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1650179560 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -201,12 +201,18 @@
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1650183167 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1677794624 4278762 af3ac1370db81a450c1118eabf1fe718 ""
+  "LANG/EN/content.tex" 1679003462 3733 5813fc677f2deb7304aa373808214114 ""
+  "LANG/EN/languages.tex" 1679003767 643 2cc947d0ba6ac2629a885ff57cb177f5 ""
+  "LANG/EN/personalData.tex" 1678902062 183 f3df897ceadfe4c5bc50b58487c3605e ""
+  "SECTIONS/expertice.tex" 1678964608 597 acdcf5b2d7b88f8a66c385ffb954b8fd ""
+  "SECTIONS/interest.tex" 1679003684 219 9f43cde82938ec252e63482670573533 ""
+  "SECTIONS/profiles.tex" 1678966736 237 b78b8e9e6eb3675f3a17547b10d8fb32 ""
   "fortysecondscv.cls" 1678879666 18349 63d8c54ce8a1092c276717211a3eaf51 ""
   "github.png" 1678707348 11401 c8a83d0788097e656bc0129ba6021912 ""
   "in.png" 1678707348 5014 895b5acee122f28da5659c25c6c2d8a4 ""
-  "main.aux" 1678882829 1151 35ff4d83284366a5a97c4159b6cebbb2 "pdflatex"
-  "main.out" 1678882829 131 a35cf83bcf4b429d6415dfe66360cae9 "pdflatex"
-  "main.tex" 1678882827 22692 1ef2040abcefdb23f2b1d531255b362c ""
+  "main.aux" 1679003808 1152 f4118fffca58754af01ab1308399c9f3 "pdflatex"
+  "main.out" 1679003808 136 d9653a47872ecb1135ed2b104999aa99 "pdflatex"
+  "main.tex" 1679003804 17314 cf378359799b2311f41359d3b82a4fbd ""
   "pics/profile.png" 1678707348 140635 9b3028a6e4552c83adbecc71e90d59a9 ""
   (generated)
   "main.aux"
