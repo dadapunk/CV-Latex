@@ -1183,10 +1183,15 @@ INPUT LANG/ES/languages.tex
 INPUT ./LANG/ES/languages.tex
 INPUT LANG/ES/languages.tex
 INPUT /usr/share/texmf-dist/fonts/tfm/intel/clearsans/ClearSans-tlf-t1.tfm
-INPUT ./SECTIONS/interest.tex
-INPUT SECTIONS/interest.tex
-INPUT ./SECTIONS/interest.tex
-INPUT SECTIONS/interest.tex
+INPUT ./LANG/ES/softSkills.tex
+INPUT LANG/ES/softSkills.tex
+INPUT ./LANG/ES/softSkills.tex
+INPUT LANG/ES/softSkills.tex
+INPUT /usr/share/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
+INPUT /usr/share/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
+INPUT /usr/share/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
+INPUT /usr/share/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
+INPUT /usr/share/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesomethree.tfm
 INPUT ./SECTIONS/profiles.tex
 INPUT SECTIONS/profiles.tex
 INPUT ./SECTIONS/profiles.tex
@@ -1238,6 +1243,7 @@ INPUT /usr/share/texmf-dist/fonts/tfm/intel/clearsans/ClearSans-tlf-t1--base.tfm
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
+INPUT /usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/clearsans/clr_zxbkm4.enc
