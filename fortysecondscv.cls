@@ -208,7 +208,7 @@
 % TODO find a cleaner solution for consistent spacing
 \newcommand{\nameandjob}{%
 	{\Huge\color{maincolor}\cvname}\par%
-	\setlength{\parskip}{2ex}
+	\setlength{\parskip}{1ex}
 	{\Large\color{black!80}\cvjobtitle}\par%
 	\setlength{\parskip}{1ex}
 }
