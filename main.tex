@@ -105,19 +105,37 @@
 
 %SPANISH
 \ifcase\lang
-%:::PERSONAL DATA::::
-\input{LANG/ES/personalData.tex}
-\addtofrontsidebar{
-\input{LANG/ES/languages.tex}
-\profilesection{Redes}
-\input{SECTIONS/profiles.tex}
-}
-\begin{document}
-\newpage
-\restoregeometry
-\sidebarwidth=0.35\paperwidth
-\makefrontsidebar
-\input{LANG/ES/content.tex}
+	\ifnum\type=7
+		%:::PERSONAL DATA::::
+		\input{LANG/ES/personalData.tex}
+		\addtofrontsidebar{
+		\input{LANG/ES/languages.tex}
+		\profilesection{Redes}
+		\input{SECTIONS/profiles.tex}
+		}
+		\begin{document}
+		\newpage
+		\restoregeometry
+		\sidebarwidth=0.35\paperwidth
+		\makefrontsidebar
+		\input{LANG/ES/content.tex}
+	\fi
+	 %NOT Qualified
+	\ifnum\type=5
+		%:::PERSONAL DATA::::
+		\input{LANG/ES/personalData.tex}
+		\addtofrontsidebar{
+		\input{LANG/ES/languages.tex}
+		\profilesection{Redes}
+		\input{SECTIONS/profiles.tex}
+		}
+		\begin{document}
+		\newpage
+		\restoregeometry
+		\sidebarwidth=0.35\paperwidth
+		\makefrontsidebar
+		\input{LANG/ES/content_notqualified.tex}
+	\fi	
 %ENGLISH
 \or
 %:::PERSONAL DATA::::
