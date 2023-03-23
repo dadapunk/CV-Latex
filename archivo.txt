@@ -27,7 +27,7 @@ Creé una aplicación móvil híbrida para una compañía de telecomunicaciones 
 
 Ingeniero de desarrollo Karibu, CL (Mayo 2016 - Noviembre 2017)
 Desarrollé un sistema de punto de venta en desktop utilizando Java Swing y SQL, lo que permitió mejorar la eficiencia de las operaciones y optimizar el seguimiento de las ventas. También implementé el uso de reportes con Jasper, lo que facilitó el monitoreo y análisis de los datos de venta.
-Desarrollé un nuevo mantenedor para una software de administración de turnos (J2EE y JSP), lo que permitió mejorar la eficiencia y la calidad de la gestión de turnos, reduciendo el tiempo dedicado a la gestión manual y minimizando los errores. 
+Desarrollé actualizaciones para un software de administración de turnos (J2EE y JSP), lo que permitió optimizar la eficiencia y calidad de la gestión de turnos, reduciendo el tiempo dedicado a la gestión manual y minimizando errores.
 Desarrollé y mejoré una aplicación Android de puntos de recogida (Java, Android Studio), mejorando la experiencia del usuario, lo que llevó a un aumento del 25% en el número de descargas y una mejora en la valoración de la aplicación en Google Play.
 
 QA, Pruebas Analyze, Cl (Junio 2015 - Febrero 2016)
