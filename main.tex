@@ -26,6 +26,10 @@
 %Bilingual
 %\usepackage[english,spanish]{babel}
 \usepackage[spanish,english]{babel}
+% %To give the proper filename to the output PDF
+\usepackage{bashful}
+% %para arrancar el bash despues de generar el pdf
+% \usepackage{afterpage}
 
 % improve word spacing and hyphenation
 \usepackage{microtype}
@@ -65,21 +69,13 @@
   bubble fill opacity = 0.8,
 }
 
-
-%-------------------------------------------------------------------------------
-% Define una numero para indicar el idioma
-%-------------------------------------------------------------------------------
-% Spanish = 0 | English = 1 | German = 2 | Catalá = 3
-\def\lang{0}
-%-------------------------------------------------------------------------------
-% Define un numero para indicar el tipo de CV
-%-------------------------------------------------------------------------------
-% Not Qualified = 5 |  Art = 6 |  IT = 7
-\def\type{7}
+\input{properties.tex}
 %fecha de hoy
 \def\fechahoy{\number\day-\number\month-\number\year}
 %Version y fecha
 \usepackage{fancyhdr}
+
+
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}
 \fancyhf{}
@@ -160,7 +156,12 @@
 \input{LANG/DE/personalData.tex}
 \fi
 %Catala
+
+\immediate\write18{./output.sh}
+
 \end{document}
+
+
 %-------------------------------------------------------------------------------
 %                              SIDEBAR 1st PAGE
 %-------------------------------------------------------------------------------
