@@ -75,7 +75,7 @@
 % Define un numero para indicar el tipo de CV
 %-------------------------------------------------------------------------------
 % Not Qualified = 5 |  Art = 6 |  IT = 7
-\def\type{7}
+\def\type{5}
 %fecha de hoy
 \def\fechahoy{\number\day-\number\month-\number\year}
 %Version y fecha
@@ -89,7 +89,7 @@
 % {0.X.X} Mayor changes in Design
 % {X.0.X} Middle changes, content, distribution
 % {X.X.0} Minor changes, typo mistakes
-\rfoot{v1.0.7}
+\rfoot{v1.0.8}
 
 %-------------------------------------------------------------------------------
 %                            PERSONAL INFORMATION
@@ -110,6 +110,8 @@
 		\input{LANG/ES/personalData.tex}
 		\addtofrontsidebar{
 		\input{LANG/ES/languages.tex}
+		\profilesection{Soft Skills}
+		\input{SECTIONS/softSkills.tex}
 		\profilesection{Redes}
 		\input{SECTIONS/profiles.tex}
 		}

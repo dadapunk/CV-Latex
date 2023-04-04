@@ -298,7 +298,7 @@
 
 \newcommand{\barskill}[3]{ 
 	% remove 1pt in width to prevent overfull box warnings
-	\begin{tikzpicture}[x=\sidebartextwidth-1pt, y=2ex]
+	\begin{tikzpicture}[x=\sidebartextwidth-1pt, y=1ex]
 			\draw[fill, skillbg, rounded corners=0.5em] 
 				(0, 0) rectangle (1, 1);
 			\draw[fill, iconcolor!70, rounded corners=0.5em] 

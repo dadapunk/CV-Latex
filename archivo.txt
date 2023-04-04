@@ -5,12 +5,7 @@ Girona 17004, España
 Permiso de trabajo en España
 
 Resumen:
-Soy un ingeniero informático apasionado por la tecnología y la programación, 
-siempre experimentando con nuevas herramientas de código abierto, automatizando tareas cotidianas
- y desplegando aplicaciones en mi home server. Tengo experiencia en proyectos que incluyen 
- diferentes lenguajes, tecnologías y arquitecturas, como web, móvil e IoT. Me apasiona la creación 
- y exploración de herramientas tecnológicas que agilicen y faciliten procesos, mejoren la calidad de vida 
- y contribuyan a comprender mejor nuestra realidad.
+Soy un ingeniero informático apasionado por la tecnología y la programación, siempre experimentando con nuevas herramientas de código abierto, automatizando tareas cotidianas y desplegando aplicaciones en mi home server. Tengo experiencia en proyectos que incluyen diferentes lenguajes, tecnologías y arquitecturas, como web, móvil e IoT. Me apasiona la creación y exploración de herramientas tecnológicas que agilicen y faciliten procesos, mejoren la calidad de vida y contribuyan a comprender mejor nuestra realidad.
 
  Objetivos profesionales a largo plazo: Busco seguir desarrollando mi carrera en el ámbito de la tecnología, 
  explorando nuevas herramientas y tecnologías emergentes y aplicándolas en proyectos innovadores que tengan un 
@@ -62,4 +57,7 @@ Herramientas: Linux, Git, Docker, GCP
 Redes:
 LinkedIn: https://www.linkedin.com/in/sebastian-velasquez-arancibia/
 GitHub: https://github.com/dadapunk
+
+English
+
 
