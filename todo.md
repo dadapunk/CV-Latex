@@ -1,0 +1,2 @@
+- Definir variables para Enlaces url
+- Cambiar output a main.pdf
