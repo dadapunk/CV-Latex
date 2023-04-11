@@ -335,8 +335,19 @@
 \newcommand{\membership}[2]{
 %	\includegraphics[align=c,width=4em]{#1}&\parbox[c]{\linewidth-6em}{#2}\\[3ex]
 	\parbox[c]{\linewidth}{#2}
-
 }
+
+\newenvironment{expertices}
+{\begin{tabular*}{\textwidth}{l@{\hskip 2em}l}}
+{\end{tabular*}}
+
+\newcommand{\expertice}[2]{
+	\begin{minipage}[t]{1\textwidth} % Ancho del minipage ajustable a tus necesidades
+		\centering
+		#2
+	\end{minipage}
+	\vspace{1pt} % Agrega espacio de 10 puntos entre las líneas del párrafo
+}	
 
 % adapted from https://tex.stackexchange.com/a/82729
 \newcommand{\wheelchart}[4][-90]{%
