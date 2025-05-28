@@ -1,71 +1,101 @@
 # CV-Latex
 
-Un CV dinámico construido con LaTeX que permite generar diferentes versiones según el idioma.
+A dynamic CV built with LaTeX that allows generating different versions based on language preferences.
 
-## Características
+## Features
 
-- 🌍 Soporte multiidioma (Español, Inglés, Alemán)
-- 📱 Diseño responsive
-- 🎨 Estilo moderno y profesional basado en FortySecondsCV
-- 🔄 Fácil de mantener y actualizar
+- 🌍 Multi-language support (Spanish, English, German)
+- 📱 Responsive design
+- 🎨 Modern and professional style based on FortySecondsCV
+- 🔄 Easy to maintain and update
+- 📄 Multiple CV types (IT, Art, Not Qualified)
+- 🎯 Customizable sections and layouts
+- 🔧 Version control friendly
 
-## Requisitos
+## Requirements
 
-- [TeX Live](https://www.tug.org/texlive/) o [MiKTeX](https://miktex.org/)
+- [TeX Live](https://www.tug.org/texlive/) or [MiKTeX](https://miktex.org/)
 - Git
+- Basic knowledge of LaTeX
 
-## Estructura del Proyecto
+## Project Structure
 
-## Uso
+```
+CV-Latex/
+├── LANG/                  # Language-specific content
+│   ├── EN/               # English content
+│   ├── ES/               # Spanish content
+│   └── DE/               # German content
+├── SECTIONS/             # Common sections
+├── pics/                 # Images and profile pictures
+├── main.tex             # Main LaTeX file
+└── fortysecondscv.cls   # Custom CV class
+```
 
-### Generar CV
+## Usage
 
-Para generar el CV, compila el archivo `main.tex` con pdflatex:
+### Generating the CV
+
+To generate the CV, compile the `main.tex` file with pdflatex:
 
 ```bash
-# Compilar el CV
+# Compile the CV
 pdflatex main.tex
 ```
 
-### Idiomas Disponibles
+### Available Languages
 
-- `ES`: Español
-- `EN`: Inglés
-- `DE`: Alemán
+- `ES`: Spanish
+- `EN`: English
+- `DE`: German
 
-## Personalización
+### CV Types
 
-### Modificar Contenido
+- `IT`: Information Technology CV
+- `Art`: Artistic CV
+- `Not Qualified`: Basic CV format
 
-1. Edita los archivos en el directorio `LANG/[IDIOMA]/` para modificar el contenido
-2. Ajusta las secciones en `SECTIONS/` según necesites
-3. Modifica `main.tex` para cambiar la estructura general
+## Customization
 
-### Añadir Nuevo Idioma
+### Modifying Content
 
-1. Crea un nuevo directorio en `LANG/` (ej: `LANG/FR/` para francés)
-2. Copia la estructura de archivos de un idioma existente
-3. Traduce el contenido
-4. Actualiza las referencias en `main.tex`
+1. Edit files in the `LANG/[LANGUAGE]/` directory to modify content
+2. Adjust sections in `SECTIONS/` as needed
+3. Modify `main.tex` to change the general structure
+4. Update profile picture in `pics/` directory
 
-## Secciones del CV
+### Adding a New Language
 
-El CV está organizado en las siguientes secciones:
-- Experiencia profesional
-- Educación
-- Habilidades técnicas
-- Habilidades blandas
-- Intereses
-- Perfiles profesionales
+1. Create a new directory in `LANG/` (e.g., `LANG/FR/` for French)
+2. Copy the file structure from an existing language
+3. Translate the content
+4. Update references in `main.tex`
+5. Add language option in the language selector
 
-## Licencia
+## CV Sections
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+The CV is organized into the following sections:
+- Professional Experience
+- Education
+- Technical Skills
+- Soft Skills
+- Interests
+- Professional Profiles
+- Languages
+- Certifications
 
-## Contacto
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
 
 Sebastián Velásquez - [sebastian.v.a@riseup.net](mailto:sebastian.v.a@riseup.net)
 
-Enlaces del proyecto:
+Project Links:
 - [GitHub](https://github.com/dadapunk)
 - [LinkedIn](https://www.linkedin.com/in/sebastian-velasquez-arancibia/)
