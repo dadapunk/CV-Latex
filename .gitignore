@@ -1,28 +1,102 @@
-
+# LaTeX temporary files
 *.aux
-*.glo
-*.idx
 *.log
 *.toc
-*.ist
-*.acn
-*.acr
-*.alg
+*.lof
+*.lot
+*.fls
+*.out
+*.synctex.gz
+*.fdb_latexmk
 *.bbl
 *.blg
 *.dvi
-*.glg
-*.gls
+*.idx
 *.ilg
 *.ind
-*.lof
-*.lot
-*.maf
-*.mtc
-*.mtc1
-*.out
-*.synctex.gz
-/Correcciones
-main.fdb_latexmk
-main.pdf
-main.fls
+*.lol
+*.nav
+*.snm
+*.vrb
+*.run.xml
+*.bcf
+*.tdo
+*.toc
+*.tps
+*.tpt
+*.tpu
+*.tpy
+*.tqz
+*.trc
+*.tru
+*.try
+*.tsx
+*.tsy
+*.ttc
+*.ttf
+*.ttx
+*.tua
+*.tuc
+*.tue
+*.tuf
+*.tug
+*.tuh
+*.tui
+*.tuj
+*.tuk
+*.tul
+*.tum
+*.tun
+*.tuo
+*.tup
+*.tuq
+*.tur
+*.tus
+*.tut
+*.tuu
+*.tuv
+*.tuw
+*.tux
+*.tuy
+*.tuz
+
+# PDF output (uncomment if you don't want to track PDFs)
+# *.pdf
+
+# Build directory
+build/
+
+# Editor temporary files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*_backup
+
+# Python virtual environment
+venv/
+env/
+.env/
+
+# Node modules (if using any JavaScript tools)
+node_modules/
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Log files
+*.log
+logs/
+log/
+
+# Temporary files
+tmp/
+temp/
